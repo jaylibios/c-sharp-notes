@@ -56,3 +56,54 @@ String name = scanner.next();
 System.out.println("Hello " + name + "!");
 ```
 If the `name` is a compound name such as Jane Doe, the program would only print the first name. This is when to use the `nextLine()` method, which reads and outputs the whole line.
+
+## Defining methods
+### The program decomposition
+A method is a sequence of statements grouped together to perform an operation. Its purpose is to decompose a program into small reusable subroutines that can be used multiple time instead of rewriting code.
+### The base syntax of methods
+Methods have the following components:
+1. set of modifiers (`public`, `static`, etc.)
+2. type of return value
+3. a name
+4. list of parameters
+5. list of exceptions
+6. body containing statements to perform the operation
+### Defining a simple method
+A simple method that calculates the sum of two integers
+```
+public static int sum(int a, int b) {
+  return a + b;
+}
+```
+### Signatures
+The combination of a method and its parameters is called a signature. The previous method has the following signature `sum(int, int)`.
+### The type of a returning value and its parameters
+A method can return a single value or nothing. To declare a method that returns nothing, use the `void` keyword.
+```
+public static void printSum(int a, int b) {
+  System.out.println(a + b);
+}
+```
+
+## Ternary operator
+The ternary operator, also called the conditional operator is an operator that evaluates a condition and choose one of the two to execute.
+Example of finding the max of two variables, a and b:
+Conditional statement
+```
+int a = 4;
+int b = 9;
+int max = 0;
+
+if (a > b) {
+  max = a;
+} else {
+  max = b;
+}
+```
+Ternary operator
+`int max = a > b ? a : b;`
+The general syntax of the ternary operator is the following:
+`result = condition ? trueCase : elseCase;`
+
+
+
