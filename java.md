@@ -107,3 +107,38 @@ The general syntax of the ternary operator is the following:
 
 
 
+
+
+## Overloading
+Overloading allows changing of a method's signature. Methods with the same name but different parameters are **overloaded**.
+
+## Static members
+Class variables (static field) belong to the class and not just an instance of a class. If there are instances of a class that should share the same value (ex a global variable), it's best to delcare it as static. These can be referenced directly by the class itself.
+`className.fieldName;`
+In general, it's not a good idea to declare non-final static variables.
+You can also access the variable through an instance of the class.
+```
+SomeClass.staticIntField = 10;
+SomeClass instance = new SomeClass();
+System.out.print(instance.staticIntField);
+```
+
+### Class methods
+A class can also have static methods that can be accessed by the class name and doesn't need an object of the class.
+`ClassName.staticMethodName(args);`
+Special features of static methods:
+* can access only static fields
+* can invoke another static method, but not an instance method
+* cannot use `this` keyword because there is no instance in static context
+Static methods are often used as **utility methods** common for the whole project
+
+## Protected modifier
+4 access modifiers:
+1. private - available **only for class**
+2. default - available for classes from **same package**
+3. protected - available for classes from **same package and extended classes**
+4. public - available from anywhere
+
+
+
+
