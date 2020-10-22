@@ -1,14 +1,16 @@
 # Regular Expressions in Java
 [Regexps in Java](#Regexps-in-Java)<br>
 [Sets, Ranges, Alternations](#Sets-Ranges-Alternations)<br>
-* [Shorthands](#Shorthands)
-* [Quantifiers](#Quantifiers)
-* [Regexes in Programs](#Regexes-in-Programs)
-* [Patterns and Matcher](#Patterns-and-Matcher)
-* [Replacing Characters](#Replacing-Characters)
-* [Match Results](#Match-Results)
+[Shorthands](#Shorthands)<br>
+[Quantifiers](#Quantifiers)<br>
+[Regexes in Programs](#Regexes-in-Programs)<br>
+[Patterns and Matcher](#Patterns-and-Matcher)<br>
+[Replacing Characters](#Replacing-Characters)<br>
+[Match Results](#Match-Results)<br>
 
 ## Regexps in Java
+[Simple Matching](#Simple-Matching), [The dot character and question mark](#the-dot-character-and-question-mark), [The tricky escape character](#the-tricky-escape-character)
+
 A **regular expression** is a sequence of characters that specifies a set of strings that is used to search, edit, and manipulate text.
 
 #### Simple Matching
