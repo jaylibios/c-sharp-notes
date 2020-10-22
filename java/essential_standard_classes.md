@@ -1,6 +1,6 @@
 # Essential Standard Classes
-[Math Library](#-Math-Library)
-[Big Integer](#-BigInteger)
+[Math Library](#Math-Library)
+[Big Integer](#BigInteger)
 
 
 ### Math Library
