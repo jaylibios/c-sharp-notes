@@ -1,7 +1,7 @@
 # Regular Expressions in Java
-[Regexps in Java](#Regexps-in-Java)\n
-[Sets, Ranges, Alternations](#Sets-Ranges-Alternations)
-[Shorthands](#Shorthands)
+* [Regexps in Java](#Regexps-in-Java)
+* [Sets, Ranges, Alternations](#Sets-Ranges-Alternations)
+* [Shorthands](#Shorthands)
 [Quantifiers](#Quantifiers)
 [Regexes in Programs](#Regexes-in-Programs)
 [Patterns and Matcher](#Patterns-and-Matcher)
