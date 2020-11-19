@@ -21,7 +21,7 @@ ReactDOM.render(
 
 In the exmaple below, we embed the result of calling a function into an `<h1>` element.
   
-```
+```javascript
 function formatName(user) {
   return user.firstName + " " + user.lastName;
 }
@@ -47,10 +47,10 @@ E.g `class` becomes `className` in JSX, and `tabindex` becomes `tabIndex`.**
 
 ### Specifying Children with JSX
 If a tag is empty, you can immediately close it like XML:
-` const elem = <img src={ user.avatarUrl } />`
+`javascript const elem = <img src={ user.avatarUrl } />`
 
 JSX tags may contain children:
-```
+```javascript
 const elem = (
   <div>
     <h1>Hello!</h1>
@@ -61,7 +61,7 @@ const elem = (
 
 ### JSX Prevents Injection Attacks
 It's safe to embed user input:
-```
+```javascript
 const title = response.potentiallyMaliciousInput;
 // This is safe:
 const elem = <h1>{ title }</h2>
@@ -73,14 +73,14 @@ By default, React DOM escapes any valyes embedded in JSX before rendering. This 
 Babel compiles JSX down to `React.createElement()` calls.
 These two are identical:
 1.
-```
+```javascript
 const elem = (
   <h1 className="greeting">Hello, World!</h1>
 );
 ```
 
 2.
-```
+```javascript
 const elem = React.createElement(
   "h1",
   { className: "greeting" },
@@ -99,12 +99,12 @@ Unlike browser DOM elements, React elements are plain objects and cheap. Element
 
 ### Rendering an Element into the DOM
 In the HTML file, there is a `<div>`
-`<div id="root"></div>`
+`javascript<div id="root"></div>`
 
 We call this a "root" DOM node b/c everything inside will be managed by React DOM.
 
 To render a React element into a root DOM node, pass both to `ReactDOM.render()`;
-```
+```javascript
 const element = <h1>Hello, world</h1>;
 ReactDOM.render(element, document.getElementById("root"));
 ```
@@ -113,7 +113,7 @@ ReactDOM.render(element, document.getElementById("root"));
 React elements are immutable; once you create the element, its children and attributes cannot be changed. The only way to update the UI is to create a new element and pass it to the `ReactDOM.render()`.
 
 Consider this example:
-```
+```javascript
 function tick() {
   const element = (
     <div>
