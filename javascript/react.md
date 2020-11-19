@@ -47,7 +47,7 @@ E.g `class` becomes `className` in JSX, and `tabindex` becomes `tabIndex`.**
 
 ### Specifying Children with JSX
 If a tag is empty, you can immediately close it like XML:
-`javascript const elem = <img src={ user.avatarUrl } />`
+`const elem = <img src={ user.avatarUrl } />`
 
 JSX tags may contain children:
 ```javascript
@@ -99,7 +99,7 @@ Unlike browser DOM elements, React elements are plain objects and cheap. Element
 
 ### Rendering an Element into the DOM
 In the HTML file, there is a `<div>`
-`javascript<div id="root"></div>`
+`<div id="root"></div>`
 
 We call this a "root" DOM node b/c everything inside will be managed by React DOM.
 
