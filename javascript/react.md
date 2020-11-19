@@ -72,12 +72,15 @@ By default, React DOM escapes any valyes embedded in JSX before rendering. This 
 ### JSX Represents Objects
 Babel compiles JSX down to `React.createElement()` calls.
 These two are identical:
-1 ```
+1.
+```
 const elem = (
   <h1 className="greeting">Hello, World!</h1>
 );
 ```
-2 ```
+
+2.
+```
 const elem = React.createElement(
   "h1",
   { className: "greeting" },
