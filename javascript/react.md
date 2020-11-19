@@ -19,7 +19,7 @@ ReactDOM.render(
 );
 ```
 
-In the exmaple below, we embed the result of calling a function into an <h1> element.
+In the exmaple below, we embed the result of calling a function into an `<h1>` element.
   
 ```
 function formatName(user) {
