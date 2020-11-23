@@ -1,12 +1,36 @@
-# Data Types and Operators
-Data types are divided into 2 groups:
-- Primitive data types (byte, short, int, long, float, double, boolean, char)
-- Non-primitive data types (String, Arrays)
+# Data Types and Variables
+[Variables](#variables)
+[Data Types](#data-types)
+[Type Casting](#type-casting)
 
-### Primitive Data Types
+### Variables
+**Variable** - placeholder for storing a value of a particular type: string, number, etc.
+
+Different types of variables:
+- `String` stores text
+- `int` stores integers
+- `float` stores floating point numbers
+- `char` stores single characters
+- `boolean` stores true or false
+
+Declaring a variable: `DataType variableName = initialization;`
+
+> Use the `final` keyword for constant values that cannot be overwritten  
+
+```java
+final int num = 10;
+num = 30;   // generates an error, cannot assign to a final variable
+```
+
+### Data Types
+Data types are divided into 2 groups:
+- **Primitive data types** (byte, short, int, long, float, double, boolean, char)
+- **Non-primitive data types** (String, Arrays)
+
+##### Primitive Data Types
 
 | Data Types | Size | Description |
-| --- | --- | --- |
+| ---------- | ---- | ----------- |
 | byte | 1 byte | whole numbers from -128 to 127 |
 | short | 2 bytes | whole numbers from -32,768 to 32,767 |
 | int | 4 bytes | whole numbers from -2,147,483,648 to 2,147,483,647 |
@@ -17,10 +41,10 @@ Data types are divided into 2 groups:
 | char | 2 bytes | single character/letter or ASCII values |
 
 Primitive Types are divided into 2 groups:
-- Integer types (byte, short, int, long)
-- Floating point types (float, double)
+- **Integer** types (byte, short, int, long)
+- **Floating point** types (float, double)
 
-### Non-Primitive Data Types
+##### Non-Primitive Data Types
 Non-primitive data types are **reference types** because they refer to objects.
 
 Primitive vs Non-primitive
@@ -28,20 +52,13 @@ Primitive vs Non-primitive
 - non-primitive used to call methods to perform operations; primitives cannot
 - primitives always have a value; non-primitives can be `null`
 
-### Arrays
-**Arrays** are used to store multiple values in a single variable
-To declare: `String[] names;`
-To insert values: `String[] names: {"John", "Jane", "Alex"};`
-To access values: `names[0] gives "John"`
-
-
-# Type Casting
+### Type Casting
 Type casting is assigning a value of one primitive data type to another
 Two types of casting in Java:
 - **Widening Casting** (automatically) is converting a smaller type to a larger type
 - **Narrowing Casting** (manually) is converting a larger type to a smaller type
 
-### Widening Casting
+##### Widening Casting
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -54,7 +71,7 @@ public class Main {
 }
 ```
 
-### Narrowing Casting
+##### Narrowing Casting
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -66,42 +83,3 @@ public class Main {
     }
 }
 ```
-# Operators
-**Operators** are used to perform operations on variables and values
-
-### Arithmetic Operators
-Arithmetic operators are used for common mathematical operations
-> `+` Addition<br>
-`-` Subtraction<br>
-`*` Multiplication<br>
-`/` Division<br>
-`%` Modulus<br>
-`++` Increment<br>
-`--` Decrement
-
-### Assignment Operators
-These are used to assign values to variables
-`int x = 10;`
-
-**Addition assignment** adds values to variables
-```java
-int x = 10;
-x += 5;     // adds 5 to 10
-```
-
-### Comparison Operators
-These are used to compare two values
-> `==` Equal to<br>
-`!=` Not equal to<br>
-`<` Less than<br>
-`>` Greater than<br>
-`>=` Greater than or equal to<br>
-`<=` Less than or equal to<br>
-
-### Logical Operators
-Logical operators are used to determine logic between variables or values
-> `&&` Logical and; returns true if *both* statements are true<br>
-`||` Logical or; returns true if *one* statement is true<br>
-`!` Logical not; reverse result, returns false if result is true<br>
-
-
