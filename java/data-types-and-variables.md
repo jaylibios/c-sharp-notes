@@ -1,7 +1,7 @@
 # Data Types and Variables
-[Variables](#variables)
-[Data Types](#data-types)
-[Type Casting](#type-casting)
+[Variables](#variables)  
+[Data Types](#data-types)  
+[Type Casting](#type-casting)  
 
 ### Variables
 **Variable** - placeholder for storing a value of a particular type: string, number, etc.
