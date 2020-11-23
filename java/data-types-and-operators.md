@@ -1,4 +1,4 @@
-# Data Types
+# Data Types and Operators
 Data types are divided into 2 groups:
 - Primitive data types (byte, short, int, long, float, double, boolean, char)
 - Non-primitive data types (String, Arrays)
