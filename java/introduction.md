@@ -4,16 +4,14 @@
 [Basic terminology](#basic-terminology)
 
 ## What is Java? {#what-is-java}
-A key feature of Java is **platform independence**:
-  the same Java program can be run on multiple platforms without any changes
-  also known as **write once, run anywhere (WORA)**
+A key feature of Java is **platform independence**: the same Java program can be run on multiple platforms without any changes also known as **write once, run anywhere (WORA)**  
 
-Java is used in Android smartphones, the financial services industry, telecommunications, embedded systems, etc.
+Java is used in Android smartphones, the financial services industry, telecommunications, embedded systems, etc.  
 
 ## Important features
-Simple and clear syntax
-Garbage collector that automatically cleans memory from unused projects
-Based on the object-oriented concept: **almost every part of a program is an object**
+Simple and clear syntax  
+Garbage collector that automatically cleans memory from unused projects  
+Based on the object-oriented concept: **almost every part of a program is an object**  
 
 ## Overview of a basic program {#basic-program}
 #### Hello World
