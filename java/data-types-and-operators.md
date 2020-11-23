@@ -4,6 +4,7 @@ Data types are divided into 2 groups:
 - Non-primitive data types (String, Arrays)
 
 ### Primitive Data Types
+
 | Data Types | Size | Description |
 | --- | --- | --- |
 | byte | 1 byte | whole numbers from -128 to 127 |
