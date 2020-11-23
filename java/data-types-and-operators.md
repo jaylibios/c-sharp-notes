@@ -5,7 +5,7 @@ Data types are divided into 2 groups:
 
 ### Primitive Data Types
 | Data Types | Size | Description |
-| ---------- | ---- | ----------- |
+| --- | --- | --- |
 | byte | 1 byte | whole numbers from -128 to 127 |
 | short | 2 bytes | whole numbers from -32,768 to 32,767 |
 | int | 4 bytes | whole numbers from -2,147,483,648 to 2,147,483,647 |
