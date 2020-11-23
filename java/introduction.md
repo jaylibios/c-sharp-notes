@@ -17,7 +17,7 @@ Based on the object-oriented concept: **almost every part of a program is an obj
 
 ## Overview of a basic program {#basic-program}
 #### Hello World
-```
+```java
 public class Main {
   public static void main(String[] args) {
     System.out.println("Hello World!");
