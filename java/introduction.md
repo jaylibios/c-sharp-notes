@@ -24,12 +24,12 @@ public class Main {
 ```
 
 **The public class.** 
-Basic unit of a program. Every Java program must have at least 1 class. 
+Basic unit of a program. Every Java program must have at least 1 class.  
 **The main method.**
 The main method is used to make the program runnable. The entry point of a Java program. The name `main` is predefined and should not be anything else.
-The element `String[] args` represents a sequence of arguments passed to the program from the outside world.
+The element `String[] args` represents a sequence of arguments passed to the program from the outside world.  
 **Printing "Hello World!"**
-The body of the method consists of a statement that will print the phrase "Hello World!" to the console.
+The body of the method consists of a statement that will print the phrase "Hello World!" to the console.  
 
 #### Basic terminology
 * Program - sequence of instructions (statements) that are executed one after another
