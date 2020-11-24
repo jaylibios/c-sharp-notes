@@ -1,43 +1,50 @@
-# Introduction to Java
-[What is Java?](#what-is-java)<br>
-[Overview of a basic program](#basic-program)<br>
-[Basic terminology](#basic-terminology)
+[What is Java?](#what-is-java)  
+[Basic literals](#basic-literals)  
+[Overview of a basic program](#overview-of-a-basic-program)  
+[Printing data](#printing-data)  
 
-## What is Java? {#what-is-java}
-A key feature of Java is **platform independence**: the same Java program can be run on multiple platforms without any changes also known as **write once, run anywhere (WORA)**  
+# What is Java?
+Java is:
+- **platform independence**: the same program can be run on multiple platforms without changes; write once, run anywhere
+- Used in Android smartphones, financial services industry, telecommunications, embedded systems, etc.
 
-Java is used in Android smartphones, the financial services industry, telecommunications, embedded systems, etc.  
+Java has a **garbage** collector that **automatically cleans memory** from unused objects during runtime.
 
-## Important features
-Simple and clear syntax  
-Garbage collector that automatically cleans memory from unused projects  
-Based on the object-oriented concept: **almost every part of a program is an object**  
+# Basic Literals
+## Literals
+**Literals** are numbers, strings, and other values
 
-## Overview of a basic program {#basic-program}
-#### Hello World
+Common literals:
+- Integer
+- Character
+- String
+
+# Overview of a basic program
+## Hello World
 ```java
 public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello World!");
-  }
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
 }
 ```
 
-**The public class.** 
-Basic unit of a program. Every Java program must have at least 1 class.  
-**The main method.**
-The main method is used to make the program runnable. The entry point of a Java program. The name `main` is predefined and should not be anything else.
-The element `String[] args` represents a sequence of arguments passed to the program from the outside world.  
-**Printing "Hello World!"**
-The body of the method consists of a statement that will print the phrase "Hello World!" to the console.  
+1. **The public class** is the basic unit of a program. Every Java program must have at least one class. 
+2. **The main method** makes the program runnable. `main` is the entry point in a Java program. `String[] args` represents a seuqnece of arguments passed to the program from the outside.
+3. **The body of the method** consists of programming statements that determine what the program should do; this prints "Hello, world!".
 
-#### Basic terminology
-* Program - sequence of instructions (statements) that are executed one after another
-* Statement - single action terminated by a semicolon (`;`)
-* Block - group of statements enclosed by curly brackets (`{...}`)
-* Method - sequence of statements that represent a high-level operation
-* Syntax - set of rules that defines how a program needs to be written in order to be valid
-* Keyword - a work that has a special meaning in the program language (`public`, `class`, etc.)
-* Identifier or name - word that refers to something in a program (such as a variable or function name)
-* Comment - textual explanation of what the code does
-* Whitespace all characters that are not visible (space, tab, newline, etc.)
+### The basic terminology
+- **Program**: sequence of instructions (statements) that are executed one after another (*sequential flow*)
+- **Statement**: single action terminated by a semi-colon `;`
+- **Block**: group of zero, one or more statements enclosed by `{}`
+- **Method**: sequence of statements that represents a high-level operation
+- **Syntax**: set of rules that define how a program needs to be written to be valid
+- **Keyword**: word that has a special meaning in the lanugage; cannot be used as variable names
+- **Identifier or name**: word that refers to something in the program (variable or function name)
+- **Comment**: textual explanation of what code does
+- **Whitespace**: characters not visible (space, tab, newline, etc.)
+
+# Printing Data
+**Standard output** is a receiver to which a program can send information (text).  Java provides `System.out` to work with standard output. 
+
+`println` displays the passed string followed by a new line.
