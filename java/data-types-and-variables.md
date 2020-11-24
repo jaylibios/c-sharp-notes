@@ -1,8 +1,8 @@
-[Types and Variables](#types-and-variables)
-[Sizes and Ranges](#sizes-and-ranges)
-[Type Casting](#type-casting)
-[Primitive and Reference Types](#primitive-and-reference-type)
-[Final Variables](#final-variables)
+[Types and Variables](#types-and-variables)  
+[Sizes and Ranges](#sizes-and-ranges)  
+[Type Casting](#type-casting)  
+[Primitive and Reference Types](#primitive-and-reference-type)  
+[Final Variables](#final-variables)  
 
 # Types and Variables
 ### Declaring and initializing
